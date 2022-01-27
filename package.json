@@ -1,0 +1,32 @@
+{
+  "name": "electron-start-app",
+  "productName": "App",
+  "version": "1.0.0",
+  "description": "electron-start-app",
+  "main": "main.js",
+  "author": "Guany",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir ",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^16.0.7",
+    "electron-builder": "^22.14.5"
+  },
+  "build": {
+    "appId": "com.tlyboy.app",
+    "win": {
+      "target": [
+        "nsis",
+        "7z"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "runAfterFinish": false
+    }
+  }
+}

@@ -3,7 +3,7 @@
 ## 1. 拉取仓库
 
 ```bash
-$ git clone https://gitee.com/tlyboy/electron-start-app.git
+$ git clone https://github.com/tlyboy/electron-start-app.git
 ```
 
 ## 2. 安装依赖

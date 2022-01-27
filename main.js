@@ -8,11 +8,11 @@ function createWindow() {
     width: 800,
     height: 600,
     title: 'Demo',
-    icon: path.join(__dirname, 'src/favicon.ico'),
+    icon: path.join(__dirname, 'favicon.ico'),
     show: false
   })
 
-  win.loadFile('src/index.html')
+  win.loadFile('index.html')
 
   win.once('ready-to-show', () => {
     win.show()

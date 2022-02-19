@@ -12,8 +12,8 @@
     "dist": "electron-builder"
   },
   "devDependencies": {
-    "electron": "^16.0.7",
-    "electron-builder": "^22.14.5"
+    "electron": "^17.0.1",
+    "electron-builder": "^22.14.13"
   },
   "build": {
     "appId": "com.tlyboy.app",

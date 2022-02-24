@@ -1,12 +1,15 @@
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow, globalShortcut } = require('electron')
 const path = require('path')
+const { autoUpdater } = require('electron-updater')
 
-// app.applicationMenu = null
+app.applicationMenu = null
 
 function createWindow() {
   const win = new BrowserWindow({
     width: 800,
     height: 600,
+    minWidth: 800,
+    minHeight: 600,
     title: 'Demo',
     icon: path.join(__dirname, 'favicon.ico'),
     show: false
@@ -14,8 +17,30 @@ function createWindow() {
 
   win.loadFile('index.html')
 
+  autoUpdater.checkForUpdatesAndNotify()
+
   win.once('ready-to-show', () => {
     win.show()
+  })
+
+  globalShortcut.register('F11', () => {
+    if (!win.isFullScreen()) {
+      win.setFullScreen(true)
+    } else {
+      win.setFullScreen(false)
+    }
+  })
+
+  globalShortcut.register('ESC', () => {
+    if (win.isFullScreen()) {
+      win.setFullScreen(false)
+    }
+  })
+
+  const contents = win.webContents
+
+  globalShortcut.register('CommandOrControl+Shift+I', () => {
+    contents.toggleDevTools()
   })
 }
 

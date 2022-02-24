@@ -9,10 +9,13 @@
   "scripts": {
     "start": "electron .",
     "pack": "electron-builder --dir ",
-    "dist": "electron-builder"
+    "dist": "electron-builder -p always"
+  },
+  "dependencies": {
+    "electron-updater": "^4.6.5"
   },
   "devDependencies": {
-    "electron": "^17.0.1",
+    "electron": "^17.1.0",
     "electron-builder": "^22.14.13"
   },
   "build": {
@@ -26,7 +29,11 @@
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,
-      "runAfterFinish": false
-    }
+      "runAfterFinish": false,
+      "shortcutName": "App"
+    },
+    "publish": [
+      "github"
+    ]
   }
 }

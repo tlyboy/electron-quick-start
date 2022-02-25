@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "start": "electron .",
-    "pack": "electron-builder --dir ",
+    "pack": "electron-builder --dir",
     "dist": "electron-builder -p always"
   },
   "dependencies": {

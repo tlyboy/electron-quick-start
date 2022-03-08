@@ -10,7 +10,6 @@ function createWindow() {
     height: 600,
     minWidth: 800,
     minHeight: 600,
-    title: 'Demo',
     icon: path.join(__dirname, 'favicon.ico'),
     show: false
   })

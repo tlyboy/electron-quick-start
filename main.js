@@ -10,11 +10,11 @@ function createWindow() {
     height: 600,
     minWidth: 800,
     minHeight: 600,
-    icon: path.join(__dirname, 'favicon.ico'),
+    icon: path.join(__dirname, './favicon.ico'),
     show: false
   })
 
-  win.loadFile('index.html')
+  win.loadFile('./index.html')
 
   autoUpdater.checkForUpdatesAndNotify()
 

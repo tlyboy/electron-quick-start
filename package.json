@@ -15,15 +15,14 @@
     "electron-updater": "^4.6.5"
   },
   "devDependencies": {
-    "electron": "^17.1.0",
+    "electron": "^17.1.2",
     "electron-builder": "^22.14.13"
   },
   "build": {
     "appId": "com.tlyboy.app",
     "win": {
       "target": [
-        "nsis",
-        "7z"
+        "nsis"
       ]
     },
     "nsis": {

@@ -1,3 +1,2 @@
-run/
-typings/
+dist/
 pnpm-lock.yaml

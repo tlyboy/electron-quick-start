@@ -1,10 +1,10 @@
-const { app, BrowserWindow, globalShortcut } = require('electron')
+const { app, Menu, BrowserWindow, globalShortcut } = require('electron')
 const path = require('path')
 const { autoUpdater } = require('electron-updater')
 
-app.applicationMenu = null
-
 function createWindow() {
+  Menu.setApplicationMenu(null)
+
   const win = new BrowserWindow({
     width: 800,
     height: 600,

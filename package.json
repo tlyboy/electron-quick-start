@@ -1,11 +1,10 @@
 {
   "name": "electron-start-app",
-  "productName": "App",
   "version": "1.0.0",
   "description": "electron-start-app",
-  "main": "main.js",
-  "author": "Guany",
   "license": "MIT",
+  "author": "Guany",
+  "main": "main.js",
   "scripts": {
     "start": "electron .",
     "pack": "electron-builder --dir",
@@ -15,7 +14,7 @@
     "electron-updater": "^4.6.5"
   },
   "devDependencies": {
-    "electron": "^17.1.2",
+    "electron": "^18.0.1",
     "electron-builder": "^22.14.13"
   },
   "build": {
@@ -34,5 +33,6 @@
     "publish": [
       "github"
     ]
-  }
+  },
+  "productName": "App"
 }

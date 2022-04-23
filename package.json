@@ -11,11 +11,11 @@
     "dist": "electron-builder -p always"
   },
   "dependencies": {
-    "electron-updater": "^4.6.5"
+    "electron-updater": "^5.0.1"
   },
   "devDependencies": {
-    "electron": "^18.0.1",
-    "electron-builder": "^22.14.13"
+    "electron": "^18.1.0",
+    "electron-builder": "^23.0.3"
   },
   "build": {
     "appId": "com.tlyboy.app",

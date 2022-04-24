@@ -1,4 +1,4 @@
-const { app, Menu, BrowserWindow } = require('electron')
+const { app, BrowserWindow } = require('electron')
 const path = require('path')
 const { autoUpdater } = require('electron-updater')
 

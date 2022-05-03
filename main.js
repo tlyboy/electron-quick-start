@@ -15,13 +15,13 @@ function createWindow() {
 
   win.setMenuBarVisibility(false)
 
-  win.loadFile('./index.html')
-
-  autoUpdater.checkForUpdatesAndNotify()
-
   win.once('ready-to-show', () => {
     win.show()
   })
+
+  win.loadFile('./index.html')
+
+  autoUpdater.checkForUpdatesAndNotify()
 }
 
 app.whenReady().then(() => {

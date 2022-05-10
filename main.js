@@ -10,10 +10,9 @@ function createWindow() {
     minWidth: 800,
     minHeight: 600,
     icon: path.join(__dirname, './favicon.ico'),
-    show: false
+    show: false,
+    autoHideMenuBar: true
   })
-
-  win.setMenuBarVisibility(false)
 
   win.once('ready-to-show', () => {
     win.show()

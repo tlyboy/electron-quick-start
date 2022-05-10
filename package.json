@@ -1,7 +1,7 @@
 {
   "name": "electron-start-app",
   "version": "1.0.0",
-  "description": "electron-start-app",
+  "description": "electron-start-app 是一个简单的 Electron 入门项目",
   "license": "MIT",
   "author": "Guany",
   "main": "main.js",
@@ -18,7 +18,7 @@
     "electron-builder": "^23.0.3"
   },
   "build": {
-    "appId": "com.tlyboy.app",
+    "appId": "com.tlyboy.start",
     "win": {
       "target": [
         "nsis"
@@ -28,11 +28,11 @@
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,
       "runAfterFinish": false,
-      "shortcutName": "App"
+      "shortcutName": "Electron 快速上手"
     },
     "publish": [
       "github"
     ]
   },
-  "productName": "App"
+  "productName": "Electron 快速上手"
 }

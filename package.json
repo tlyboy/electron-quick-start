@@ -1,7 +1,8 @@
 {
   "name": "electron-start-app",
   "version": "1.0.0",
-  "description": "electron-start-app 是一个简单的 Electron 入门项目",
+  "private": true,
+  "description": "🚀 Electron 快速上手",
   "license": "MIT",
   "author": "Guany",
   "main": "main.js",
@@ -14,7 +15,7 @@
     "electron-updater": "^5.0.1"
   },
   "devDependencies": {
-    "electron": "^18.2.4",
+    "electron": "^19.0.0",
     "electron-builder": "^23.0.3"
   },
   "build": {

@@ -14,4 +14,4 @@ degit https://github.com/tlyboy/electron-start-app.git my-new-project
 
 ## 使用许可
 
-[MIT](./LICENSE) © Guany
+[MIT](https://github.com/tlyboy/electron-start-app/blob/main/LICENSE) © Guany

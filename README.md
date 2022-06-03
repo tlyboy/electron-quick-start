@@ -15,4 +15,4 @@ degit https://github.com/tlyboy/electron-quick-start.git my-new-project
 
 ## 使用许可
 
-[MIT](https://github.com/tlyboy/electron-quick-start/blob/main/LICENSE) © Guany
+[MIT](https://opensource.org/licenses/MIT) © Guany

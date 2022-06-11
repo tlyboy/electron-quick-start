@@ -1,6 +1,6 @@
 # Electron 快速上手
 
-electron-quick-start 是一个简单的 Electron 入门项目。
+一个简单的 Electron 应用。
 
 ## 使用说明
 

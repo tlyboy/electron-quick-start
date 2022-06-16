@@ -18,7 +18,7 @@
   "devDependencies": {
     "electron": "^19.0.4",
     "electron-builder": "^23.0.3",
-    "prettier": "^2.6.2"
+    "prettier": "^2.7.1"
   },
   "build": {
     "appId": "com.tlyboy.start",

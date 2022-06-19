@@ -22,3 +22,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+code {
+  font-family: 'CaskaydiaCove Nerd Font', Consolas, monaco, 'Noto Sans SC',
+    Arial, 'Helvetica Neue', Helvetica, monospace !important;
+}

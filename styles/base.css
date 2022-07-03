@@ -5,8 +5,7 @@
   position: relative;
   font-weight: normal;
   user-select: none;
-  font-family: 'Source Han Sans SC VF', 'Helvetica Neue', Helvetica, Arial,
-    sans-serif;
+  font-family: 'Source Han Sans SC VF', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   -webkit-user-select: none;
   -webkit-user-drag: none;
   -webkit-tap-highlight-color: transparent;
@@ -25,6 +24,5 @@ body {
 }
 
 code {
-  font-family: 'CaskaydiaCove Nerd Font', 'Source Han Sans SC VF', Consolas,
-    monaco, monospace;
+  font-family: 'CaskaydiaCove Nerd Font', 'Source Han Sans SC VF', Consolas, monaco, monospace;
 }

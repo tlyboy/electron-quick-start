@@ -5,13 +5,10 @@
   position: relative;
   font-weight: normal;
   user-select: none;
-  font-family: 'Source Han Sans SC VF', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   -webkit-user-select: none;
   -webkit-user-drag: none;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -21,6 +18,9 @@ body {
   align-items: center;
   margin: 0;
   min-height: 100vh;
+  font-family: 'Source Han Sans SC VF', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 code {

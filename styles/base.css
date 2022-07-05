@@ -1,8 +1,7 @@
 *,
-*::before,
-*::after {
+:before,
+:after {
   box-sizing: border-box;
-  position: relative;
   font-weight: normal;
   user-select: none;
   -webkit-user-select: none;

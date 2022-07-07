@@ -2,7 +2,7 @@ const { app, BrowserWindow } = require('electron')
 const path = require('path')
 const { autoUpdater } = require('electron-updater')
 
-const createWindow = () => {
+const createWindow = async () => {
   const win = new BrowserWindow({
     width: 800,
     height: 600,

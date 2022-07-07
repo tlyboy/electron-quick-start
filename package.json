@@ -13,11 +13,11 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "electron-updater": "^5.0.1"
+    "electron-updater": "^5.0.5"
   },
   "devDependencies": {
-    "electron": "^19.0.4",
-    "electron-builder": "^23.0.3",
+    "electron": "^19.0.8",
+    "electron-builder": "^23.1.0",
     "prettier": "^2.7.1"
   },
   "build": {

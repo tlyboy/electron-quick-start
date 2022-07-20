@@ -111,9 +111,9 @@
   integrity sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==
 
 "@types/node@*":
-  version "18.0.5"
-  resolved "https://registry.npmmirror.com/@types/node/-/node-18.0.5.tgz#96be8113b014e9e7f0c3609c4a25afadd85ff659"
-  integrity sha512-En7tneq+j0qAiVwysBD79y86MT3ModuoIJbe7JXp+sb5UAjInSShmK3nXXMioBzfF7rXC12hv12d4IyCVwN4dA==
+  version "18.0.6"
+  resolved "https://registry.npmmirror.com/@types/node/-/node-18.0.6.tgz#0ba49ac517ad69abe7a1508bc9b3a5483df9d5d7"
+  integrity sha512-/xUq6H2aQm261exT6iZTMifUySEt4GR5KX8eYyY+C4MSNPqSh9oNIP7tz2GLKTlFaiBbgZNxffoR3CVRG+cljw==
 
 "@types/node@^16.11.26":
   version "16.11.45"
@@ -134,9 +134,9 @@
   integrity sha512-zsv3fsC7S84NN6nPK06u79oWgrPVd0NvOyqgghV1haPaFcVxIrP4DLomRwGAXk0ui4HZA7mOcSFL98sMVW9viw==
 
 "@types/verror@^1.10.3":
-  version "1.10.5"
-  resolved "https://registry.npmmirror.com/@types/verror/-/verror-1.10.5.tgz#2a1413aded46e67a1fe2386800e291123ed75eb1"
-  integrity sha512-9UjMCHK5GPgQRoNbqdLIAvAy0EInuiqbW0PBMtVP6B5B2HQJlvoJHM+KodPZMEjOa5VkSc+5LH7xy+cUzQdmHw==
+  version "1.10.6"
+  resolved "https://registry.npmmirror.com/@types/verror/-/verror-1.10.6.tgz#3e600c62d210c5826460858f84bcbb65805460bb"
+  integrity sha512-NNm+gdePAX1VGvPcGZCDKQZKYSiAWigKhKaz5KF94hG6f2s8de9Ow5+7AbXoeKxL8gavZfk4UquSAygOF2duEQ==
 
 "@types/yargs-parser@*":
   version "21.0.0"
@@ -472,9 +472,9 @@ cliui@^7.0.2:
     wrap-ansi "^7.0.0"
 
 clone-response@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npmmirror.com/clone-response/-/clone-response-1.0.2.tgz#d1dc973920314df67fbeb94223b4ee350239e96b"
-  integrity sha512-yjLXh88P599UOyPTFX0POsd7WxnbsVsGohcwzHOLspIhhpalPw1BcqED8NblyZLKcGrL8dTgMlcaZxV2jAD41Q==
+  version "1.0.3"
+  resolved "https://registry.npmmirror.com/clone-response/-/clone-response-1.0.3.tgz#af2032aa47816399cf5f0a1d0db902f517abb8c3"
+  integrity sha512-ROoL94jJH2dUVML2Y/5PEDNaSHgeOdSDicUyS7izcF63G6sTc/FTjLub4b8Il9S8S0beOfYt0TaA5qvFK+w0wA==
   dependencies:
     mimic-response "^1.0.0"
 

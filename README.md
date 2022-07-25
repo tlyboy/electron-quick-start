@@ -5,7 +5,7 @@
 ## 使用说明
 
 ```bash
-npx degit https://github.com/tlyboy/electron-quick-start.git my-new-project
+npx degit tlyboy/electron-quick-start my-new-project
 ```
 
 ## 相关仓库
